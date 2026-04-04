@@ -7,17 +7,19 @@
 7        int sum = 0 ;
 8         
 9
-10        while(high<n){
-11            sum += nums[high];
-12            while(sum >= target){
-13                int len = high -low+1;
-14                res = min (res,len);
-15                sum -= nums[low];
-16                low++;
-17            }
-18            high++;
-19           
+10        
+11        for(high = 0 ; high < n ; high++){
+12            sum += nums[high];
+13
+14            while(sum >= target){
+15                int len = high - low + 1;
+16                res = min(res,len);
+17                sum -= nums[low];
+18                low++;
+19            }
 20        }
-21       return (res == INT_MAX) ? 0 : res;
-22    }
-23};
+21
+22        
+23       return (res == INT_MAX) ? 0 : res;
+24    }
+25};

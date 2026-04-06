@@ -19,7 +19,7 @@
 19            fast= fun(fast);
 20            fast= fun(fast);
 21
-22           if(fast == slow && slow !=1){
+22           if(fast == slow && slow !=1){ // slow fast means meets and 1 measn they have not met at 1
 23            return false;
 24           }
 25

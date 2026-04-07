@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 <!---LeetCode Topics Start-->
 # LeetCode Topics
@@ -6,20 +6,33 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/soliya-malik/Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0141-linked-list-cycle](https://github.com/soliya-malik/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/soliya-malik/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0876-middle-of-the-linked-list](https://github.com/soliya-malik/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
 | ------- |
 | [0015-3sum](https://github.com/soliya-malik/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/soliya-malik/Leetcode/tree/master/0016-3sum-closest) |
+| [0053-maximum-subarray](https://github.com/soliya-malik/Leetcode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/soliya-malik/Leetcode/tree/master/0075-sort-colors) |
+| [0152-maximum-product-subarray](https://github.com/soliya-malik/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0209-minimum-size-subarray-sum](https://github.com/soliya-malik/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/soliya-malik/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0904-fruit-into-baskets](https://github.com/soliya-malik/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/soliya-malik/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [1004-max-consecutive-ones-iii](https://github.com/soliya-malik/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 ## Two Pointers
 |  |
 | ------- |
 | [0015-3sum](https://github.com/soliya-malik/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/soliya-malik/Leetcode/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/soliya-malik/Leetcode/tree/master/0075-sort-colors) |
+| [0141-linked-list-cycle](https://github.com/soliya-malik/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/soliya-malik/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/soliya-malik/Leetcode/tree/master/0202-happy-number) |
+| [0287-find-the-duplicate-number](https://github.com/soliya-malik/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0876-middle-of-the-linked-list](https://github.com/soliya-malik/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/soliya-malik/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Sorting
 |  |
@@ -32,16 +45,61 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/soliya-malik/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/soliya-malik/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [1004-max-consecutive-ones-iii](https://github.com/soliya-malik/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/soliya-malik/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/soliya-malik/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/soliya-malik/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0424-longest-repeating-character-replacement](https://github.com/soliya-malik/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0904-fruit-into-baskets](https://github.com/soliya-malik/Leetcode/tree/master/0904-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/soliya-malik/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/soliya-malik/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+<<<<<<< HEAD
 <!---LeetCode Topics End-->
-=======
+
 # Leetcode
 My LeetCode solutions
 >>>>>>> e700ae042c5e564645936d65407cd4a35765c6bf
+
+| [1004-max-consecutive-ones-iii](https://github.com/soliya-malik/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+## Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/soliya-malik/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/soliya-malik/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0141-linked-list-cycle](https://github.com/soliya-malik/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/soliya-malik/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/soliya-malik/Leetcode/tree/master/0202-happy-number) |
+| [0424-longest-repeating-character-replacement](https://github.com/soliya-malik/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0904-fruit-into-baskets](https://github.com/soliya-malik/Leetcode/tree/master/0904-fruit-into-baskets) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/soliya-malik/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/soliya-malik/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0424-longest-repeating-character-replacement](https://github.com/soliya-malik/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/soliya-malik/Leetcode/tree/master/0202-happy-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/soliya-malik/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/soliya-malik/Leetcode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/soliya-malik/Leetcode/tree/master/0053-maximum-subarray) |
+| [0152-maximum-product-subarray](https://github.com/soliya-malik/Leetcode/tree/master/0152-maximum-product-subarray) |
+<!---LeetCode Topics End-->
+>>>>>>> 71443e807eeefc36af15357bcbef3878e7579f47

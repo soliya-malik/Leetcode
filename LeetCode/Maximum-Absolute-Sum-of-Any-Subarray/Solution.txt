@@ -1,0 +1,26 @@
+1class Solution {
+2public:
+3    int maxAbsoluteSum(vector<int>& nums) {
+4        int n = nums.size();
+5        int min_end = nums[0];
+6        int min_sum = nums[0];
+7        int max_end = nums[0];
+8        int max_sum = nums[0];
+9        int res = INT_MIN;
+10
+11        if(n==1){
+12            return abs(nums[0]);
+13        }
+14
+15        for(int i =1 ; i < n ;i++){
+16            max_end = max(max_end + nums[i],nums[i]);
+17            max_sum = max(max_sum,max_end);
+18
+19            min_end = min(min_end + nums[i],nums[i]);
+20            min_sum = min(min_sum,min_end);
+21
+22            res = max(abs(max_sum),abs(min_sum));
+23        }
+24        return res;
+25    }
+26};

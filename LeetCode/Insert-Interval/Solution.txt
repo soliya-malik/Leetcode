@@ -1,0 +1,48 @@
+1class Solution {
+2private :
+3       vector<vector<int>> merge(vector<vector<int>>& res){
+4        vector<vector<int>> res1;
+5        //1.sort
+6        sort(res.begin(), res.end());
+7        //2. runa lopp and see if condition matches
+8         // 3. if yes merge it then continue to see if next can also be merged
+9        // 4 . if no add it toresult and chnage start1 and end1;
+10        // 5 at last push lst start1 and end1 at n-1 position cuase they are not yet being added
+11        int start1 = res[0][0];
+12        int end1 = res[0][1];
+13        for(int i = 1 ; i< res.size(); i++){
+14            int start2 = res[i][0];
+15            int end2 = res[i][1];
+16
+17            if(end1 >= start2){
+18                start1 = start1;
+19                end1 = max(end1,end2);
+20                continue; // imp
+21            }
+22            res1.push_back({start1,end1});
+23            start1 = start2;
+24            end1 = end2;
+25        }
+26        res1.push_back({start1,end1});
+27       
+28        return res1;
+29       }
+30public:
+31    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+32        vector<vector<int>> res;
+33        bool insert = false ;
+34        for(int i = 0 ; i < intervals.size() ; i++){
+35            int start = intervals[i][0];
+36            if(start >=newInterval[0] && insert == false){
+37                res.push_back({newInterval[0],newInterval[1]});
+38                insert = true;
+39                
+40            }
+41            res.push_back({intervals[i]});
+42        }
+43        if(insert == false){
+44            res.push_back({newInterval[0],newInterval[1]});
+45        }
+46        return merge(res);
+47    }
+48};

@@ -1,16 +1,34 @@
-[1,2]
-[1,null,2]
-[1]
-[2]
-[1,null,2]
-[1,2]
-[1,null,2]
-[1,null,3]
-[1,null,null]
-[1,null,null]
-[]
-[]
-[1]
-[1,null,2]
-[1,null,2]
-[1]
+1/**
+2 * Definition for a binary tree node.
+3 * struct TreeNode {
+4 *     int val;
+5 *     TreeNode *left;
+6 *     TreeNode *right;
+7 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+8 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+9 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+10 * };
+11 */
+12class Solution {
+13public:
+14    bool isSameTree(TreeNode* p, TreeNode* q) {
+15        if(p == NULL && q == NULL){
+16            return true;
+17        }
+18        if(p == NULL || q == NULL){
+19            return false;
+20        }
+21        if(p->val != q->val){
+22            return false;
+23        }
+24        bool l = isSameTree(p->left , q->left);
+25        bool r = isSameTree(p->right,q->right);
+26
+27        if( l == true && r == true){
+28            return true;
+29        }
+30        else{
+31            return false;
+32        }
+33    }
+34};

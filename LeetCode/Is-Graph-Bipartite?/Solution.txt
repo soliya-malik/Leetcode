@@ -1,0 +1,29 @@
+1class Solution {
+2public:
+3    bool res = true;
+4    bool isBipartite(vector<vector<int>>& graph) {
+5        int n = graph.size();
+6        vector<int> colors(n,-1);
+7        int c = 0 ;
+8        for(int i = 0 ; i < n ;i++){
+9            if(colors[i]==-1){
+10                dfs(graph,i,0,colors);
+11            }
+12        }
+13        return res;
+14    }
+15    void dfs(vector<vector<int>>& graph,int node,int c,vector<int>& colors){
+16        colors[node]=c;
+17        for(int i = 0 ; i < graph[node].size();i++){
+18            int neigh = graph[node][i];
+19            if(colors[neigh] != -1 && colors[neigh]==c){
+20                res = false;
+21                break;
+22            }
+23            if(colors[neigh]==-1){
+24             dfs(graph,neigh,1-c,colors);
+25            }
+26        }
+27        return;
+28    }
+29};

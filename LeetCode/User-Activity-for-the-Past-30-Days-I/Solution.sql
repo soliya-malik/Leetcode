@@ -1,0 +1,1 @@
+activity_date > '2019-06-27' AND activity_date <= '2019-07-27' 

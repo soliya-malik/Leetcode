@@ -1,0 +1,1 @@
+df = sales.groupby('product_id', as_index=False)['year'].min()

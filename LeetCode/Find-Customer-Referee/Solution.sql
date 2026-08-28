@@ -1,1 +1,1 @@
-select name from customer where referee_id != 2;
+SELECT name FROM customer WHERE referee_Id <> 2;
